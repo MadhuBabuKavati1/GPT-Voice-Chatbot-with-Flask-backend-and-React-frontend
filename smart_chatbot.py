@@ -4,7 +4,7 @@ import openai
 from openai import OpenAI
 
 # Replace with your actual API key
-client = OpenAI(api_key="***REMOVED***proj-rWY33N6PDnbrIcU-MmOPQqtYKmmnaejFNohx7-TfvJiPcOGzz1rrkeno-NhE25vQomMNHnp_wCT3BlbkFJ5_Krh2MXBkKQU7_Cp7Rhlf_RpYbbc2L6Ks_bWYClXxTlXbqwt7mF3OHl_kjtUlUsSpb9kHCQ8A")
+client = OpenAI(api_key="OPENAI_API_KEY")
 
 def ask_gpt(prompt):
     try:
